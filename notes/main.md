@@ -226,3 +226,30 @@ Hi sant527! You've successfully authenticated, but GitHub does not provide shell
 ➜  2026_05May_11Mon_fastapi_learning git:(main) ✗ 
 ```
 
+# commit and push the changes
+
+```
+➜  2026_05May_11Mon_fastapi_learning git:(main) ✗ git config user.name "Your Name"
+git config user.email "your@email.com"
+➜  2026_05May_11Mon_fastapi_learning git:(main) ✗ git add -A; git commit -m "first sample"; git push origin main
+[main (root-commit) ec3b3f5] first sample
+ 8 files changed, 1675 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .python-version
+ create mode 100644 README.md
+ create mode 100644 main.py
+ create mode 100644 notes/fastapi.md
+ create mode 100644 notes/main.md
+ create mode 100644 pyproject.toml
+ create mode 100644 uv.lock
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 38.20 KiB | 6.37 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To github-personal:sant527/fastapi_project.git
+ * [new branch]      main -> main
+➜  2026_05May_11Mon_fastapi_learning git:(main) 
+```
+
